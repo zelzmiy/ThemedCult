@@ -1,4 +1,5 @@
-﻿global using static CotLTemplateMod.Logging;
+﻿global using static ThemedCult.Logging;
+global using static ThemedCult.Extentions;
 
 global using BepInEx;
 global using BepInEx.Logging;

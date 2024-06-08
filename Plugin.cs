@@ -1,16 +1,17 @@
 using System.IO;
 using COTL_API.CustomInventory;
 using COTL_API.CustomFollowerCommand;
+using System.Collections.Generic;
 
-namespace CotLTemplateMod
+namespace ThemedCult
 {
     [BepInPlugin(PluginGuid, PluginName, PluginVer)]
     [BepInDependency("io.github.xhayper.COTL_API")]
     [HarmonyPatch]
     public class Plugin : BaseUnityPlugin
     {
-        public const string PluginGuid = "xyz.zelzmiy.ModName";
-        public const string PluginName = "ModName";
+        public const string PluginGuid = "xyz.zelzmiy.ThemedCult";
+        public const string PluginName = "ThemedCult";
         public const string PluginVer = "1.0.0";
 
         internal static ManualLogSource Log;

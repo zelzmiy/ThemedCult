@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <AssemblyName>ModTemplate</AssemblyName>
+    <AssemblyName>ThemedCult</AssemblyName>
     <AssemblyVersion>1.0.0</AssemblyVersion>
     <ReleaseVersion>1.0.0</ReleaseVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -11,7 +11,7 @@
 
     <OutputPath Condition=" '$(SolutionDir)' != '' ">$(SolutionDir)bin\$(Configuration)\$(MSBuildProjectName)\</OutputPath>
     <OutputPath Condition=" '$(SolutionDir)' == '' ">$(ProjectDir)bin\$(Configuration)\$(MSBuildProjectName)\</OutputPath>
-    <OutputPath>C:\Program Files (x86)\Steam\steamapps\common\Cult of the Lamb\BepInEx\plugins\ModName\Plugins</OutputPath>
+    <OutputPath>C:\Program Files (x86)\Steam\steamapps\common\Cult of the Lamb\BepInEx\plugins\ThemedCult\Plugins</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
 

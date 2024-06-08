@@ -1,4 +1,4 @@
-﻿namespace CotLTemplateMod;
+﻿namespace ThemedCult;
 
 public static class Logging
 {
