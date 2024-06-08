@@ -1,0 +1,11 @@
+{
+  "namespace": "xyz.zelzmiy.ThemedCult",
+  "name": "ThemedCult",
+  "description": "Customizes all cult buildings to be like your temple theme",
+  "version_number": "1.0.0",
+  "dependencies": [
+    "BepInEx-BepInExPack_CultOfTheLamb-5.4.21",
+    "API_dev-COTL_API-0.2.2"
+  ],
+  "website_url": "https://github.com/zelzmiy/ThemedCult"
+}
