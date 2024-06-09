@@ -57,14 +57,5 @@ namespace ThemedCult
         {
             ThemeChanger.ChangeTheme((CultTheme)style);
         }
-
-        public void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.J))
-            {
-                Inventory.AddItem(InventoryItem.ITEM_TYPE.GOLD_REFINED, 1000);
-                Inventory.AddItem(InventoryItem.ITEM_TYPE.PLEASURE_POINT, 1000);
-            }
-        }
     }
 }
