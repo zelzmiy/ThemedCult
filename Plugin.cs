@@ -44,16 +44,23 @@ namespace ThemedCult
 
         public void OnCultLoaded(Scene scene, LoadSceneMode mode)
         {
+            LogInfo(scene.name);
             if (scene.name != "Base Biome 1")
                 return;
-            
+        }
+
+        //runs on cult loaded for the first time
+        [HarmonyPatch(typeof(BaseLocationManager), "ShowCultName")]
+        [HarmonyPostfix]
+        private static void ChangeThemes() 
+        {
             // why -100? i don't know, ask the COTL devs
             ThemeChanger.ChangeTheme((CultTheme)DataManager.instance.TempleBorder - 100);
         }
 
         [HarmonyPatch(typeof(Interaction_TempleAltar), nameof(Interaction_TempleAltar.SetAltarStyle))]
         [HarmonyPostfix]
-        public static void ChangeThemes(int style)
+        private static void ChangeThemes(int style)
         {
             ThemeChanger.ChangeTheme((CultTheme)style);
         }

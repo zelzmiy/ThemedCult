@@ -30,13 +30,13 @@ namespace ThemedCult.Theming
 
             shrineSprite.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
             shrineSprite.sprite = BoneShrine_Body_3;
-            shrineSprite.transform.SetPositionAndRotation(new Vector3(0.18f, -10.35f, -1.75f), shrine.transform.rotation);
+            shrineSprite.transform.SetPositionAndRotation(new Vector3(0.18f, -10.36f, -1.75f), shrine.transform.rotation);
 
             var headSprite = head.GetComponent<SpriteRenderer>();
             headSprite.sprite = BoneShrine_Head_3;
             headSprite.transform.SetPositionAndRotation(new Vector3(0.18f, -10f, -2.8f), shrine.transform.rotation);
 
-            GameObject.Destroy(flag);
+            
         }
     }
 }
