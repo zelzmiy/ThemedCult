@@ -36,7 +36,7 @@ namespace ThemedCult.Theming
             headSprite.sprite = BoneShrine_Head_3;
             headSprite.transform.SetPositionAndRotation(new Vector3(0.18f, -10f, -2.8f), shrine.transform.rotation);
 
-            
+            flag.transform.SetPositionAndRotation(new Vector3(0.18f, -10.25f, -2.35f), flag.transform.rotation);
         }
     }
 }
