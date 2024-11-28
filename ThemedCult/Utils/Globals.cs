@@ -1,5 +1,5 @@
 ﻿global using static ThemedCult.Logging;
-global using static ThemedCult.Extentions;
+global using static ThemedCult.Extensions;
 
 global using BepInEx;
 global using BepInEx.Logging;

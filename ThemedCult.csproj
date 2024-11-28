@@ -31,9 +31,12 @@
 
   <ItemGroup>
     <Reference Include="COTL_API">
-      <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Cult of the Lamb\BepInEx\plugins\xhayper-COTL_API-0.2.2\plugins\io.github.xhayper.COTL_API\COTL_API.dll</HintPath>
-      <Private>false</Private>
+      <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Cult of the Lamb\BepInEx\plugins\io.github.xhayper.COTL_API\COTL_API.dll</HintPath>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Assets\Goat\Shrine\" />
   </ItemGroup>
 
 </Project>
